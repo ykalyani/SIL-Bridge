@@ -6,7 +6,7 @@ How to contribute
 2. Click Fork button
 3. go to the git bash/ git shell
 4. clone the project using following commands
-    https://github.com/<your username>/SIL-Bridge.git
+    https://github.com/your-username/SIL-Bridge.git
 
 How to push you changes to forked repository
 --------------------------------------------
@@ -18,13 +18,13 @@ How to push you changes to forked repository
 
 How to get pull from original repository
 ----------------------------------------
-# Assigns the original repository to a remote called "upstream"
+ Assigns the original repository to a remote called "upstream"
 1. SIL-Bridge> git remote add upstream https://github.com/SamTharani/SIL-Bridge
 
-# Fetches any new changes from the original repository
+ Fetches any new changes from the original repository
 2. SIL-Bridge> git fetch upstream
 
-# Merges any changes fetched into your working files
+ Merges any changes fetched into your working files
 3. SIL-Bridge> git merge upstream/master
 
 
