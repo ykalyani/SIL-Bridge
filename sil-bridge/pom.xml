@@ -3,9 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sil.bridge</groupId>
   <artifactId>sil-bridge</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>sil-bridge Maven Webapp</name>
+    <modules>
+        <module>sil-web</module>
+    </modules>
+    <name>sil-bridge Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
