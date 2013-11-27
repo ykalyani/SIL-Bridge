@@ -14,17 +14,20 @@ How to push you changes to forked repository
 2. SIL-Bridge> git commit -m "Your commit message"
 3. SIL-Bridge> git push
 
-* Do the pull Request
+* Do the Pull Request
 
 How to get pull from original repository
 ----------------------------------------
- Assigns the original repository to a remote called "upstream"
+ *Assigns the original repository to a remote called "upstream"
+ 
 1. SIL-Bridge> git remote add upstream https://github.com/SamTharani/SIL-Bridge
 
- Fetches any new changes from the original repository
+ *Fetches any new changes from the original repository
+ 
 2. SIL-Bridge> git fetch upstream
 
- Merges any changes fetched into your working files
+ *Merges any changes fetched into your working files
+ 
 3. SIL-Bridge> git merge upstream/master
 
 
