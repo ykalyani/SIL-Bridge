@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sil-web:war">
+    <output-path>$PROJECT_DIR$/sil-web/target</output-path>
+    <root id="archive" name="sil-web.war">
+      <element id="artifact" artifact-name="sil-web:war exploded" />
+    </root>
+  </artifact>
+</component>
