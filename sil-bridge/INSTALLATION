@@ -1,0 +1,14 @@
+
+How to Build
+
+1. go to the project directory
+
+    SIL-Bridge\sil-bridge\sil-web>
+
+2. run the following command
+
+    mvn jetty:run
+
+3. Go the browser
+
+    http://localhost:8090/sil-web/
