@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="sil-bridge:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="sil-bridge.war">
-      <element id="artifact" artifact-name="sil-bridge:war exploded" />
-    </root>
-  </artifact>
-</component>
