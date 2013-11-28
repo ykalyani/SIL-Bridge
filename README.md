@@ -6,7 +6,7 @@ How to contribute
 2. Click Fork button
 3. go to the git bash/ git shell
 4. clone the project using following commands
-    https://github.com/your-username/SIL-Bridge.git
+  * git clone https://github.com/your-username/SIL-Bridge.git
 
 How to push you changes to forked repository
 --------------------------------------------
