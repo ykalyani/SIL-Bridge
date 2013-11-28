@@ -7,7 +7,7 @@ How to Build
 
 2. run the following command
 
-    mvn jetty:run
+    mvn clean install jetty:run
 
 3. Go the browser
 
