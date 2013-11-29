@@ -7,7 +7,7 @@ How to Build
 
 2. run the following command
 
-   create-initial-data.sql
+   mvn clean install jetty:run
 
 3. Go the browser
 
