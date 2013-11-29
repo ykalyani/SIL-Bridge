@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <head>
     <meta charset="utf-8">
@@ -8,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="resources/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <link href="<c:out value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css" />
+    <link href="<c:out value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css" />
 
-    <link href="resources/css/font-awesome.css" rel="stylesheet">
+    <link href="<c:out value="/resources/css/font-awesome.css"/>" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
 
-    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
-    <link href="resources/css/pages/signin.css" rel="stylesheet" type="text/css">
+    <link href="<c:out value="/resources/css/style.css"/>" rel="stylesheet" type="text/css">
+    <link href="<c:out value="/resources/css/pages/signin.css"/>" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -128,10 +129,10 @@
 </div> <!-- /login-extra -->
 
 
-<script src="resources/js/jquery-1.7.2.min.js"></script>
-<script src="resources/js/bootstrap.js"></script>
+<script src="<c:out value="/resources/js/jquery-1.7.2.min.js"></script>
+<script src="<c:out value="/resources/js/bootstrap.js"></script>
 
-<script src="resources/js/signin.js"></script>
+<script src="<c:out value="/resources/js/signin.js"></script>
 
 </body>
 

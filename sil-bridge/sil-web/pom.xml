@@ -10,6 +10,21 @@
     <packaging>war</packaging>
     <name>sil-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
+
+    <properties>
+        <junit.version>3.8.1</junit.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+        <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
+        <spring.version>3.2.0.RELEASE</spring.version>
+        <spring.security.version>3.0.5.RELEASE</spring.security.version>
+        <spring-data-mongodb.version>1.2.0.RELEASE</spring-data-mongodb.version>
+        <jstl.version>1.2</jstl.version>
+        <log4j.version>1.2.14</log4j.version>
+        <taglibs.standard.version>1.1.2</taglibs.standard.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <application.name>sil-bridge--${project.version}</application.name>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -17,6 +32,41 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- servlet dependency -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- tag library dependency -->
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>${taglibs.standard.version}</version>
+        </dependency>
+
+        <!-- Spring MVC 3 dependencies -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>sil-web</finalName>
