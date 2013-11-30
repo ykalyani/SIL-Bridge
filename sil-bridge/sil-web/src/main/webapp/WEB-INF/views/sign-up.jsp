@@ -4,19 +4,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Signup - Bootstrap Admin Template</title>
+    <title>SIL-BRIDGE</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link href="<c:out value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css" />
-    <link href="<c:out value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css" />
+    <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css" />
+    <link href="<c:url value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css" />
 
-    <link href="<c:out value="/resources/css/font-awesome.css"/>" rel="stylesheet">
+    <link href="<c:url value="/resources/css/font-awesome.css"/>" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
 
-    <link href="<c:out value="/resources/css/style.css"/>" rel="stylesheet" type="text/css">
-    <link href="<c:out value="/resources/css/pages/signin.css"/>" rel="stylesheet" type="text/css">
+    <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" type="text/css">
+    <link href="<c:url value="/resources/css/pages/signin.css"/>" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -35,7 +35,7 @@
             </a>
 
             <a class="brand" href="index.html">
-                Bootstrap Admin Template
+                SIL-BRIDGE
             </a>
 
             <div class="nav-collapse">
@@ -71,11 +71,11 @@
 
         <form action="#" method="post">
 
-            <h1>Signup for Free Account</h1>
+            <h1>Signup</h1>
 
             <div class="login-fields">
 
-                <p>Create your free account:</p>
+                <p>Create your account:</p>
 
                 <div class="field">
                     <label for="firstname">First Name:</label>
@@ -129,10 +129,10 @@
 </div> <!-- /login-extra -->
 
 
-<script src="<c:out value="/resources/js/jquery-1.7.2.min.js"></script>
-<script src="<c:out value="/resources/js/bootstrap.js"></script>
+<script src="<c:url value="/resources/js/jquery-1.7.2.min.js"/>"></script>
+<script src="<c:url value="/resources/js/bootstrap.js"/>"></script>
 
-<script src="<c:out value="/resources/js/signin.js"></script>
+<script src="<c:url value="/resources/js/signin.js"/>"></script>
 
 </body>
 
