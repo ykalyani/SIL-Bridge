@@ -33,6 +33,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- sitemesh dependency -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>${sitemesh.version}</version>
+        </dependency>
+
         <!-- servlet dependency -->
         <dependency>
             <groupId>javax.servlet</groupId>
