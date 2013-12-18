@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-Welcome SIL Bridge This is our first step
-
-Project Name Now SIL Bridge 
-This is our Home Page 
-
-home page 
-login 
-username:-
-password:-
-=======
 Welcome SIL Bridge. This is our first step
 
 How to contribute
@@ -41,5 +30,3 @@ How to get pull from original repository
  
 3. SIL-Bridge> git merge upstream/master
 
-
->>>>>>> upstream/master
