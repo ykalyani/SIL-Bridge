@@ -43,7 +43,7 @@
             </a>
 
             <a class="brand" href="index.html">
-               SIL-Bridge
+                SIL-Bridge
             </a>
 
             <div class="nav-collapse">
@@ -211,17 +211,9 @@
 
 
             <div class="control-group">
-                <label class="control-label" for="firstname">First Name</label>
+                <label class="control-label" for="name">Name</label>
                 <div class="controls">
-                    <input type="text" class="span6" id="firstname" value="John">
-                </div> <!-- /controls -->
-            </div> <!-- /control-group -->
-
-
-            <div class="control-group">
-                <label class="control-label" for="lastname">Last Name</label>
-                <div class="controls">
-                    <input type="text" class="span6" id="lastname" value="Donga">
+                    <input type="text" class="span6" id="name" value="John">
                 </div> <!-- /controls -->
             </div> <!-- /control-group -->
 
@@ -234,82 +226,11 @@
             </div> <!-- /control-group -->
 
     <div class="control-group">
-        <label class="control-label" for="homeaddress">Home Address</label>
+        <label class="control-label" for="address">Address</label>
         <div class="controls">
-            <input type="text" class="span4" id="homeaddress" value="john.donga@egrappler.com">
+            <input type="text" class="span4" id="address" value="john.donga@egrappler.com">
         </div> <!-- /controls -->
     </div> <!-- /control-group -->
-
-
-    <div class="control-group">
-    <label class="control-label">Gender</label>
-
-
-    <div class="controls">
-        <label class="radio inline">
-            <input type="radio"  name="male"> Male
-        </label>
-
-        <label class="radio inline">
-            <input type="radio" name="female"> Female
-        </label>
-    </div>	<!-- /controls -->
-    </div> <!-- /control-group -->
-
-    <div class="control-group">
-    <label class="control-label" for="dob">Date Of Birth</label>
-    <div class="controls">
-        <input type="date" class="span6" id="dob" value=" ">
-    </div> <!-- /controls -->
-    </div> <!-- /control-group -->
-
-    <div class="control-group">
-        <label class="control-label" for="studentid">Student Id</label>
-        <div class="controls">
-            <input type="text" class="span6" id="studentid" value=" ">
-        </div> <!-- /controls -->
-    </div> <!-- /control-group -->
-
-    <div class="control-group">
-        <label class="control-label" for="uniname">University Name</label>
-        <div class="controls">
-            <div class="btn-group">
-                <a class="btn btn-primary" href="#"><i class=""></i> Universities</a>
-                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#"><i class=""></i> UOJ</a></li>
-                    <li><a href="#"><i class=""></i> UOM</a></li>
-                    <li><a href="#"><i class=""></i> UVA</a></li>
-                    <li class="divider"></li>
-                  <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-                </ul>
-            </div>
-        </div>	<!-- /controls -->
-    </div> <!-- /control-group -->
-
-<div class="control-group">
-    <label class="control-label" for="facultyname">Faculty Name</label>
-    <div class="controls">
-        <div class="btn-group">
-            <a class="btn btn-primary" href="#"><i class=""></i> Faculties</a>
-            <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#"><i class=""></i> Science</a></li>
-                <li><a href="#"><i class=""></i> Arts</a></li>
-                <li><a href="#"><i class=""></i> Management</a></li>
-                <li class="divider"></li>
-                <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-            </ul>
-        </div>
-    </div>	<!-- /controls -->
-</div> <!-- /control-group -->
-
-<div class="control-group">
-    <label class="control-label" for="course">Course Of Studies</label>
-    <div class="controls">
-        <input type="text" class="span6" id="course" value=" ">
-    </div> <!-- /controls -->
-</div> <!-- /control-group -->
 
 <div class="control-group">
         <label class="control-label" for="username">User Name</label>
@@ -332,6 +253,21 @@
                     <input type="password" class="span4" id="password2" value="thisispassword">
                 </div> <!-- /controls -->
             </div> <!-- /control-group -->
+
+    <div class="control-group">
+        <label class="control-label" for="webid">Web Address</label>
+        <div class="controls">
+            <input type="text" class="span4" id="webid" value="">
+        </div> <!-- /controls -->
+    </div> <!-- /control-group -->
+
+
+    <div class="control-group">
+        <label class="control-label" for="payment">Membership Payment</label>
+        <div class="controls">
+            <input type="decimal" class="span4" id="payment" value="">
+        </div> <!-- /controls -->
+    </div> <!-- /control-group -->
 
             <br />
 

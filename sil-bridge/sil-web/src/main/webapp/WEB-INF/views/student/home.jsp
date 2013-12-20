@@ -490,5 +490,5 @@
         });
     });
 </script><!-- /Calendar -->
-</body>
+</div></body>
 </html>

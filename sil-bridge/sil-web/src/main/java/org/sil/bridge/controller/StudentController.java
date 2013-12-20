@@ -6,14 +6,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class StudentController {
 
-    @RequestMapping(value = "/profile")
+    @RequestMapping(value = "/student/profile")
     public String dashBoardPage(){
-        return "profile";
+        return "/student/profile";
     }
-
     @RequestMapping(value = "/student/home")
-    public String studentHomePage(){
+    public String StudentHomePage(){
         return "student/home";
 
-    }
+    @RequestMapping(value = "/student/register")
+    public String StudentRegisterPage(){
+            return "student/register";
+
+        }
 }

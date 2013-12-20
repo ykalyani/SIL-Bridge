@@ -43,7 +43,7 @@
             </a>
 
             <a class="brand" href="index.html">
-               SIL-Bridge
+                SIL-Bridge
             </a>
 
             <div class="nav-collapse">
@@ -263,14 +263,7 @@
     </div> <!-- /controls -->
     </div> <!-- /control-group -->
 
-    <div class="control-group">
-        <label class="control-label" for="studentid">Student Id</label>
-        <div class="controls">
-            <input type="text" class="span6" id="studentid" value=" ">
-        </div> <!-- /controls -->
-    </div> <!-- /control-group -->
-
-    <div class="control-group">
+        <div class="control-group">
         <label class="control-label" for="uniname">University Name</label>
         <div class="controls">
             <div class="btn-group">
@@ -304,12 +297,7 @@
     </div>	<!-- /controls -->
 </div> <!-- /control-group -->
 
-<div class="control-group">
-    <label class="control-label" for="course">Course Of Studies</label>
-    <div class="controls">
-        <input type="text" class="span6" id="course" value=" ">
-    </div> <!-- /controls -->
-</div> <!-- /control-group -->
+
 
 <div class="control-group">
         <label class="control-label" for="username">User Name</label>

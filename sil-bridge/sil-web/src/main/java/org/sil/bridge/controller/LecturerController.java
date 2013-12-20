@@ -8,13 +8,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LecturerController {
 
 
-    @RequestMapping(value = "/student/profile")
+    @RequestMapping(value = "/lecturer/profile")
     public String dashBoardPage(){
-        return "/student/profile";
+        return "/lecturer/profile";
     }
     @RequestMapping(value = "/lecturer/home")
-    public String studentHomePage(){
+    public String LecturerHomePage(){
         return "lecturer/home";
+
+    @RequestMapping(value = "/lecturer/register")
+    public String LecturerRegisterPage(){
+        return "lecturer/register";
 
     }
 }
