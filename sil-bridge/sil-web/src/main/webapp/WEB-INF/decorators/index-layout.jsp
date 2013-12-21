@@ -25,6 +25,7 @@
         </head>
         <body>
             <%@ include file="/WEB-INF/includes/header.jsp" %>
+            <%@ include file="/WEB-INF/includes/menubar.jsp" %>
             <decorator:body/>
             <%@ include file="/WEB-INF/includes/extra.jsp" %>
             <%@ include file="/WEB-INF/includes/footer.jsp" %>

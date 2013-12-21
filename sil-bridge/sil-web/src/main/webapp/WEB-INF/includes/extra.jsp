@@ -8,8 +8,7 @@
                     <ul>
                         <li><a href="javascript:;">EGrappler.com</a></li>
                         <li><a href="javascript:;">Web Development Resources</a></li>
-                        <li><a href="javascript:;">Responsive HTML5 Portfolio Templates</a></li>
-                        <li><a href="javascript:;">Free Resources and Scripts</a></li>
+
                     </ul>
                 </div>
                 <!-- /span3 -->
