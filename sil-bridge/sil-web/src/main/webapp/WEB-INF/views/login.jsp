@@ -1,7 +1,8 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>SIL-BRIDGE</title>
+    <title>Login - Bootstrap Admin Template</title>
 </head>
 
 <body>
@@ -19,17 +20,19 @@
             </a>
 
             <a class="brand" href="index.html">
-                SIL-BRIDGE
+                Bootstrap Admin Template
             </a>
 
             <div class="nav-collapse">
                 <ul class="nav pull-right">
+
                     <li class="">
-                        <a href="login.html" class="">
-                            Already have an account? Login now
+                        <a href="student/profile" class="">
+                            Don't have an account?
                         </a>
 
                     </li>
+
                     <li class="">
                         <a href="index.html" class="">
                             <i class="icon-chevron-left"></i>
@@ -49,56 +52,42 @@
 
 
 
-<div class="account-container register">
+<div class="account-container">
 
     <div class="content clearfix">
 
         <form action="#" method="post">
 
-            <h1>Signup</h1>
+            <h1>Member Login</h1>
 
             <div class="login-fields">
 
-                <p>Create your account:</p>
+                <p>Please provide your details</p>
 
                 <div class="field">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" id="firstname" name="firstname" value="" placeholder="First Name" class="login" />
-                </div> <!-- /field -->
-
-                <div class="field">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" id="lastname" name="lastname" value="" placeholder="Last Name" class="login" />
-                </div> <!-- /field -->
-
-
-                <div class="field">
-                    <label for="email">Email Address:</label>
-                    <input type="text" id="email" name="email" value="" placeholder="Email" class="login"/>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" value="" placeholder="Username" class="login username-field" />
                 </div> <!-- /field -->
 
                 <div class="field">
                     <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" value="" placeholder="Password" class="login"/>
-                </div> <!-- /field -->
-
-                <div class="field">
-                    <label for="confirm_password">Confirm Password:</label>
-                    <input type="password" id="confirm_password" name="confirm_password" value="" placeholder="Confirm Password" class="login"/>
-                </div> <!-- /field -->
+                    <input type="password" id="password" name="password" value="" placeholder="Password" class="login password-field"/>
+                </div> <!-- /password -->
 
             </div> <!-- /login-fields -->
 
             <div class="login-actions">
-
+				
 				<span class="login-checkbox">
 					<input id="Field" name="Field" type="checkbox" class="field login-checkbox" value="First Choice" tabindex="4" />
-					<label class="choice" for="Field">Agree with the Terms & Conditions.</label>
+					<label class="choice" for="Field">Keep me signed in</label>
 				</span>
 
-                <button class="button btn btn-primary btn-large">Register</button>
+                <button class="button btn btn-success btn-large">Sign In</button>
 
             </div> <!-- .actions -->
+
+
 
         </form>
 
@@ -106,12 +95,9 @@
 
 </div> <!-- /account-container -->
 
-
-<!-- Text Under Box -->
 <div class="login-extra">
-    Already have an account? <a href="login.html">Login to your account</a>
+    <a href="#">Reset Password</a>
 </div> <!-- /login-extra -->
-
 </body>
 
 </html>

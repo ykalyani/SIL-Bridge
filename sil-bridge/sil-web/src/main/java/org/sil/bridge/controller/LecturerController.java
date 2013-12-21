@@ -15,7 +15,7 @@ public class LecturerController {
     @RequestMapping(value = "/lecturer/home")
     public String LecturerHomePage(){
         return "lecturer/home";
-
+    }
     @RequestMapping(value = "/lecturer/register")
     public String LecturerRegisterPage(){
         return "lecturer/register";

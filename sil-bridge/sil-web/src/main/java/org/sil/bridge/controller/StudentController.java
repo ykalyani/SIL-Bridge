@@ -8,12 +8,12 @@ public class StudentController {
 
     @RequestMapping(value = "/student/profile")
     public String dashBoardPage(){
-        return "/student/profile";
+        return "student/profile";
     }
     @RequestMapping(value = "/student/home")
     public String StudentHomePage(){
         return "student/home";
-
+    }
     @RequestMapping(value = "/student/register")
     public String StudentRegisterPage(){
             return "student/register";

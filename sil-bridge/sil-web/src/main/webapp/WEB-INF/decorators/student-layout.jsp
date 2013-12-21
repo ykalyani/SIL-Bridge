@@ -10,10 +10,7 @@
 
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
         <head>
-            <title><decorator:title default='This is the default title'/></title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-            <meta name="apple-mobile-web-app-capable" content="yes">
+
             <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet">
             <link href="<c:url value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet">
             <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">

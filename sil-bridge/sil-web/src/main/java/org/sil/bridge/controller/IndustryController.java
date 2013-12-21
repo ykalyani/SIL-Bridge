@@ -15,10 +15,10 @@ public class IndustryController {
     @RequestMapping(value = "/industry/home")
     public String IndustryHomePage(){
         return "industry/home";
+    }
+    @RequestMapping(value = "/industry/register")
+    public String industryRegisterPage(){
+        return "industry/register";
 
-        @RequestMapping(value = "/industry/register")
-        public String industryRegisterPage(){
-            return "industry/register";
-
-        }
+    }
 }

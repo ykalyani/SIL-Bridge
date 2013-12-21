@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<decorators defaultdir="/WEB-INF/decorators">
+	<excludes>
+		<pattern>/resources/*</pattern>
+		<pattern>/images/*</pattern>
+		<pattern>/META-INF/*</pattern>
+	</excludes>
+
+    <decorator name="loginLayout" page="login-layout.jsp">
+        <pattern>*/login</pattern>
+    </decorator>
+
+    <decorator name="profileLayout" page="profile-layout.jsp">
+        <pattern>*/student/profile</pattern>
+        <pattern>*/lecturer/profile</pattern>
+        <pattern>*/industry/profile</pattern>
+    </decorator>
+
+<!--    <decorator name="indexLayout" page="dash-layout.jsp">
+        <pattern>*/index</pattern>
+        <pattern>*/main</pattern>
+        <pattern>/*</pattern>
+    </decorator>-->
+
+</decorators>
+
