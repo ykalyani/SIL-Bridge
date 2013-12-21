@@ -17,11 +17,10 @@
         <pattern>*/industry/profile</pattern>
     </decorator>
 
-<!--    <decorator name="indexLayout" page="dash-layout.jsp">
+    <decorator name="indexLayout" page="index-layout.jsp">
         <pattern>*/index</pattern>
-        <pattern>*/main</pattern>
         <pattern>/*</pattern>
-    </decorator>-->
+    </decorator>
 
 </decorators>
 

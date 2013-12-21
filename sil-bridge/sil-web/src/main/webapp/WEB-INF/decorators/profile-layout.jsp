@@ -29,31 +29,25 @@
 <body>
 
 <div class="navbar navbar-fixed-top">
-
     <div class="navbar-inner">
-
         <div class="container">
-
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-
-            <a class="brand" href="/sil-web/home">
+            <a class="brand" href="/sil-web/index">
                 SIL-Bridge
             </a>
-
             <div class="nav-collapse">
                 <ul class="nav pull-right">
                     <li class="">
                         <a href="/sil-web/login" class="">
                             Already have an account? Login now
                         </a>
-
                     </li>
                     <li class="">
-                        <a href="/sil-web/home" class="">
+                        <a href="/sil-web/index" class="">
                             <i class="icon-chevron-left"></i>
                             Back to Homepage
                         </a>
@@ -63,13 +57,10 @@
 
             </div>
             <!--/.nav-collapse -->
-
         </div>
         <!-- /container -->
-
     </div>
     <!-- /navbar-inner -->
-
 </div>
 <!-- /navbar -->
 <decorator:body/>

@@ -13,14 +13,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/sil-web/home">SIL-Bridge</a>
+            <a class="brand" href="/sil-web/index">SIL-Bridge</a>
             <div class="nav-collapse">
                 <ul class="nav pull-right">
                     <li class="">
-                        <a href="student/profile" class="">Don't have an account?</a>
+                        <a href="/sil-web/choose-member" class="">Don't have an account?</a>
                     </li>
                     <li class="">
-                        <a href="/sil-web/home" class="">
+                        <a href="/sil-web/index" class="">
                             <i class="icon-chevron-left"></i>
                             Back to Homepage
                         </a>
@@ -52,7 +52,7 @@
 					<input id="Field" name="Field" type="checkbox" class="field login-checkbox" value="First Choice" tabindex="4" />
 					<label class="choice" for="Field">Keep me signed in</label>
 				</span>
-                <button class="button btn btn-success btn-large">Sign In</button>
+                <button class="button btn btn-primary btn-large">Sign In</button>
 
             </div> <!-- .actions -->
         </form>

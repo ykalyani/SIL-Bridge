@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Account - Bootstrap Admin Template</title>
+    <title>Student Account - SIL-Bridge</title>
 </head>
 <body>
 <br>
@@ -15,7 +15,7 @@
                     <div class="widget ">
                         <div class="widget-header">
                             <i class="icon-user"></i>
-                            <h3>Your Account</h3>
+                            <h3>Create Your Account</h3>
                         </div>
                         <!-- /widget-header -->
 
@@ -112,8 +112,7 @@
                                             <div class="controls">
                                                 <div class="btn-group">
                                                     <a class="btn btn-primary" href="#"><i class=""></i>Universities</a>
-                                                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
-                                                       href="#"><span class="caret"></span></a>
+                                                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#"><i class=""></i> UOJ</a></li>
                                                         <li><a href="#"><i class=""></i> UOM</a></li>
