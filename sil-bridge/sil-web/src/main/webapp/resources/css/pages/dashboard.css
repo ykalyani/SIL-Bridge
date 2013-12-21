@@ -21,9 +21,9 @@ Bootstrap Admin Template by EGrappler.com
 	
 	text-decoration: none;
 	
-	background: #f9f6f1;
-	
-	border-radius: 5px;
+	background: rgba(73, 188, 255, 0.41);
+    border: 2px double  rgba(73, 188, 255, 0.41);
+	border-radius: 20px;
 }
 
 .shortcuts .shortcut .shortcut-icon {
