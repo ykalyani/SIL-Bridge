@@ -94,7 +94,7 @@ textarea {
 }
 
 .navbar .search-query {
-	background-color: #444;
+	background-color: #49bcff;
 	width: 150px;
 	font-size: 11px;
 	font-weight: bold;
@@ -108,7 +108,7 @@ textarea {
     color: #666;
 }
 
-.navbar-search .search-query { background: #49bcff; border:0; color:#fff; line-height:normal;}
+.navbar-search .search-query { border:1px rgba(0, 0, 0, 0.26) solid; color:#fff; line-height:normal;}
 
 
 /*------------------------------------------------------------------
