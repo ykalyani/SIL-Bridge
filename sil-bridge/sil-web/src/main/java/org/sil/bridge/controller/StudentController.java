@@ -10,13 +10,19 @@ public class StudentController {
     public String dashBoardPage(){
         return "student/profile";
     }
+
     @RequestMapping(value = "/student/home")
     public String StudentHomePage(){
         return "student/home";
     }
+
     @RequestMapping(value = "/student/register")
     public String StudentRegisterPage(){
             return "student/register";
+    }
 
-        }
+    @RequestMapping(value = "/student/project")
+    public String StudentProjectPage(){
+        return "student/project";
+    }
 }
