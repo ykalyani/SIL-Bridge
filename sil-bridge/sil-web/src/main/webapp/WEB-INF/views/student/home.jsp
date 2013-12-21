@@ -11,36 +11,80 @@
 <div class="row">
 <div class="span12">
     <div class="widget widget-nopad">
-        <div class="widget-header"><i class="icon-list-alt"></i>
-            <h3> Today's Stats</h3>
-        </div>
+
         <!-- /widget-header -->
-        <div class="widget-content">
+
             <div class="widget big-stats-container">
                 <div class="widget-content">
-                    <h6 class="bigstats">A fully responsive premium quality admin template built on Twitter Bootstrap by
-                        <a href="http://www.egrappler.com" target="_blank">EGrappler.com</a>. These are some dummy lines
-                        to fill the area.</h6>
 
-                    <div id="big_stats" class="cf">
-                        <div class="stat"><i class="icon-anchor"></i> <span class="value">851</span></div>
-                        <!-- .stat -->
+                    <div class="widget widget-table action-table">
+                        <div class="widget-header"> <i class="icon-th-list"></i>
+                            <h3>A Table Example</h3>
+                        </div>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th> Project Title </th>
+                                    <th> Lecturer</th>
+                                    <th class="td-actions" >Action </th>
+                                    <th> Industry</th>
+                                    <th class="td-actions" >Action </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td> AI </td>
+                                    <td> Dr.Mahesan </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td> Virtusa </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
-                        <div class="stat"><i class="icon-thumbs-up-alt"></i> <span class="value">423</span></div>
-                        <!-- .stat -->
+                                </tr>
+                                <tr>
+                                    <td> Image Processing </td>
+                                    <td> Dr.Ramanan </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td> MIT </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
-                        <div class="stat"><i class="icon-twitter-sign"></i> <span class="value">922</span></div>
-                        <!-- .stat -->
+                                </tr>
+                                <tr>
+                                    <td> Data mining </td>
+                                    <td> Dr.Charles </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td> hsenid </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
-                        <div class="stat"><i class="icon-bullhorn"></i> <span class="value">25%</span></div>
-                        <!-- .stat -->
+                                </tr>
+                                <tr>
+                                    <td> Networking </td>
+                                    <td> Mr.Thabotharan </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td> 99x </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+
+                                </tr>
+                                <tr>
+                                    <td> Bio Informatics </td>
+                                    <td> Dr.Mahesan </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td> wso2 </td>
+                                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /widget-content -->
                     </div>
-                </div>
                 <!-- /widget-content -->
 
             </div>
         </div>
-    </div>
+
     <!-- /widget -->
 </div>
 </div>
