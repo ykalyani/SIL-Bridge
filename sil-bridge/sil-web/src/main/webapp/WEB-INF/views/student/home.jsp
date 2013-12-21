@@ -36,41 +36,131 @@
                                 <tbody>
                                 <tr>
                                     <td> AI </td>
-                                    <td> Dr.Mahesan </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Dr.Ramanan</option>
+                                            <option>Dr.charles</option>
+                                            <option>Dr.Mahesan</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
-                                    <td> Virtusa </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>MIT</option>
+                                            <option>99X</option>
+                                            <option>hsenid</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
                                 </tr>
                                 <tr>
-                                    <td> Image Processing </td>
-                                    <td> Dr.Ramanan </td>
+                                    <td> AI </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Dr.Ramanan</option>
+                                            <option>Dr.charles</option>
+                                            <option>Dr.Mahesan</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
-                                    <td> MIT </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>MIT</option>
+                                            <option>99X</option>
+                                            <option>hsenid</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
                                 </tr>
                                 <tr>
-                                    <td> Data mining </td>
-                                    <td> Dr.Charles </td>
+                                    <td> AI </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Dr.Ramanan</option>
+                                            <option>Dr.charles</option>
+                                            <option>Dr.Mahesan</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
-                                    <td> hsenid </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>MIT</option>
+                                            <option>99X</option>
+                                            <option>hsenid</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
                                 </tr>
                                 <tr>
-                                    <td> Networking </td>
-                                    <td> Mr.Thabotharan </td>
+                                    <td> AI </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Dr.Ramanan</option>
+                                            <option>Dr.charles</option>
+                                            <option>Dr.Mahesan</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
-                                    <td> 99x </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>MIT</option>
+                                            <option>99X</option>
+                                            <option>hsenid</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
                                 </tr>
                                 <tr>
-                                    <td> Bio Informatics </td>
-                                    <td> Dr.Mahesan </td>
+                                    <td> AI </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>Dr.Ramanan</option>
+                                            <option>Dr.charles</option>
+                                            <option>Dr.Mahesan</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
-                                    <td> wso2 </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>MIT</option>
+                                            <option>99X</option>
+                                            <option>hsenid</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+
+                                    </td>
                                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
 
                                 </tr>
@@ -84,6 +174,7 @@
 
             </div>
         </div>
+
 
     <!-- /widget -->
 </div>
