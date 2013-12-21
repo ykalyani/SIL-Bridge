@@ -25,4 +25,10 @@ public class StudentController {
     public String StudentProjectPage(){
         return "student/project";
     }
+
+
+    @RequestMapping(value = "/student/industry")
+    public String StudentIndustryPage(){
+        return "student/industry-view";
+    }
 }
