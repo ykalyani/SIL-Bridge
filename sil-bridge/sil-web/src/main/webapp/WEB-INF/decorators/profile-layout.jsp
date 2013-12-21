@@ -40,7 +40,7 @@
             </a>
 
             <a class="brand" href="index.html">
-                Student Industry Lecturer-Bridge
+                SIL-Bridge
             </a>
 
             <div class="nav-collapse">
@@ -52,7 +52,7 @@
 
                     </li>
                     <li class="">
-                        <a href="index.html" class="">
+                        <a href="/sil-web/home" class="">
                             <i class="icon-chevron-left"></i>
                             Back to Homepage
                         </a>

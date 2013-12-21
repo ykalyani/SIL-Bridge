@@ -13,6 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/x-icon" href="<c:url value="/resources/img/message_avatar1.png"/>" />
 
     <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css" />
     <link href="<c:url value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css" />
