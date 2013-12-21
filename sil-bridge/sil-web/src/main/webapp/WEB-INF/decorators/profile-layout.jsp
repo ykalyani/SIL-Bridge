@@ -14,12 +14,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css" />
-    <link href="<c:url value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css" />
+    <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" type="text/css"/>
+    <link href="<c:url value="/resources/css/bootstrap-responsive.min.css"/>" rel="stylesheet" type="text/css"/>
 
     <link href="<c:url value="/resources/css/font-awesome.css"/>" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
 
+    <link href="<c:url value="/resources/css/pages/dashboard.css"/>" rel="stylesheet" type="text/css">
     <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" type="text/css">
     <link href="<c:url value="/resources/css/pages/signin.css"/>" rel="stylesheet" type="text/css">
     <decorator:head/>
@@ -39,7 +40,7 @@
                 <span class="icon-bar"></span>
             </a>
 
-            <a class="brand" href="index.html">
+            <a class="brand" href="/sil-web/home">
                 SIL-Bridge
             </a>
 
@@ -60,13 +61,17 @@
                     </li>
                 </ul>
 
-            </div><!--/.nav-collapse -->
+            </div>
+            <!--/.nav-collapse -->
 
-        </div> <!-- /container -->
+        </div>
+        <!-- /container -->
 
-    </div> <!-- /navbar-inner -->
+    </div>
+    <!-- /navbar-inner -->
 
-</div> <!-- /navbar -->
+</div>
+<!-- /navbar -->
 <decorator:body/>
 
 <script src="<c:url value="/resources/js/jquery-1.7.2.min.js"/>"></script>

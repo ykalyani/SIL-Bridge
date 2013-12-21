@@ -19,8 +19,8 @@
                     <li class="">
                         <a href="student/profile" class="">Don't have an account?</a>
                     </li>
-                    <li class="/sil-web/home">
-                        <a href="" class="">
+                    <li class="">
+                        <a href="/sil-web/home" class="">
                             <i class="icon-chevron-left"></i>
                             Back to Homepage
                         </a>

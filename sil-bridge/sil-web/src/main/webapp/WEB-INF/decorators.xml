@@ -11,6 +11,7 @@
     </decorator>
 
     <decorator name="profileLayout" page="profile-layout.jsp">
+        <pattern>*/choose-member</pattern>
         <pattern>*/student/profile</pattern>
         <pattern>*/lecturer/profile</pattern>
         <pattern>*/industry/profile</pattern>

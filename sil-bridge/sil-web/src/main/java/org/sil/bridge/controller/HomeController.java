@@ -16,6 +16,10 @@ public class HomeController {
         return "dash-board";
     }
 
+    @RequestMapping(value = "/choose-member")
+    public String chooseMemberPage(){
+        return "choose-member";
+    }
 
 
 

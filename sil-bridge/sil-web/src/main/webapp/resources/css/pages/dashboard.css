@@ -9,13 +9,13 @@ Bootstrap Admin Template by EGrappler.com
 */
 
 .shortcuts {
-	text-align: center;	
+	text-align: center;
 }
 
 .shortcuts .shortcut { 
 	width: 22.50%;
 	display: inline-block;
-	padding: 12px 0;
+	padding: 32px 12px;
 	margin: 0 .9% 1em;
 	vertical-align: top;	
 	
@@ -35,7 +35,7 @@ Bootstrap Admin Template by EGrappler.com
 }
 
 .shortcuts .shortcut:hover {
-	background: #00ba8b;
+	background: #2f7fab;
 }
 
 .shortcuts .shortcut:hover span{
