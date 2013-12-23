@@ -31,4 +31,10 @@ public class StudentController {
     public String StudentIndustryPage(){
         return "student/industry-view";
     }
+
+
+    @RequestMapping(value = "/student/internship")
+    public String StudentInternshipPage(){
+        return "student/internship";
+    }
 }
