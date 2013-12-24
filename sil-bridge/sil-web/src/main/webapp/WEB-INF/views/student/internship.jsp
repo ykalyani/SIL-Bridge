@@ -1,186 +1,173 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Student Internship- SIL-Bridge</title>
+    <title>Project - SIL-Bridge</title>
 </head>
 <body>
-<br>
 <div class="main">
-<div class="main-inner">
-<div class="container">
-    <div class="row">
-        <div class="span12">
-            <div class="widget ">
-                <div class="widget-header">
-                    <i class="icon-user"></i>
-                    <h3>Apply for Internship</h3>
-                </div>
-                <!-- /widget-header -->
+    <div class="main-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
 
-                <div class="widget-content"><br>
-                    <div class="tab-pane" id="formcontrols">
-                        <form id="edit-profile" class="form-horizontal">
-                            <fieldset>
+                    <div class="widget widget-table action-table">
 
-                                <div class="control-group">
-                                    <label class="control-label" for="firstname">First Name</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span6" id="firstname" value="John">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-
-                                <div class="control-group">
-                                    <label class="control-label" for="lastname">Last Name</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span6" id="lastname" value="Donga">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-
-                                <div class="control-group">
-                                    <label class="control-label" for="email">Email Address</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span4" id="email"
-                                               value="john.donga@egrappler.com">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label" for="studentid">Student Id</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span6" id="studentid" value=" ">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label">University Name</label>
-
-                                    <div class="controls">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary" href="#"><i class=""></i>Universities</a>
-                                            <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class=""></i> UOJ</a></li>
-                                                <li><a href="#"><i class=""></i> UOM</a></li>
-                                                <li><a href="#"><i class=""></i> UVA</a></li>
-                                                <li class="divider"></li>
-                                                <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label">Faculty Name</label>
-
-                                    <div class="controls">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary" href="#"><i class=""></i> Faculties</a>
-                                            <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
-                                               href="#"><span class="caret"></span></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class=""></i> Science</a></li>
-                                                <li><a href="#"><i class=""></i> Arts</a></li>
-                                                <li><a href="#"><i class=""></i> Management</a></li>
-                                                <li class="divider"></li>
-                                                <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label" for="course">Course Of Studies</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span6" id="course" value=" ">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label" for="yearofstudy">Year Of study</label>
-
-                                    <div class="controls">
-                                        <input type="text" class="span6" id="yearofstudy" value=" ">
-                                    </div>
-                                    <!-- /controls -->
-                                </div>
-                                <!-- /control-group -->
-
-                                <div class="control-group">
-                                    <label class="control-label">Industry Name</label>
-                                <div class="controls">
-                                    <div class="btn-group">
-                                        <a class="btn btn-primary" href="#"><i class=""></i>Industries</a>
-                                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#"><i class=""></i> 99x</a></li>
-                                            <li><a href="#"><i class=""></i> virtusa</a></li>
-                                            <li><a href="#"><i class=""></i> MIT</a></li>
-                                            <li class="divider"></li>
-                                            <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- /controls -->
-                    </div>
-                    <!-- /control-group -->
-
-                    <div class="control-group">
-                        <label class="control-label" for="duration">Duration</label>
-
-                        <div class="controls">
-                            <input type="text" class="span6" id="duration" value=" ">
+                        <div class="widget-header"><i class="icon-th-list"></i>
+                            <h3>Suggested Industries For Your Internship</h3>
                         </div>
-                        <!-- /controls -->
-                    </div>
-                    <!-- /control-group -->
 
-                                <br/>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th> Project Title</th>
+                                    <th> Project Area</th>
+                                    <th> Industry</th>
+                                    <th> Status</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td>
+                                        <form class="navbar-search pull-left">
+                                            <input type="text" class="search-query span4" placeholder="Search with project title">
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form class="navbar-search pull-left">
+                                            <input type="text" class="search-query span2" placeholder="Search with project area">
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form class="navbar-search pull-left">
+                                            <input type="text" class="search-query span2" placeholder="Search with lecturer">
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form class="navbar-search pull-left">
+                                            <input type="text" class="search-query span2" placeholder="Search with University">
+                                        </form>
+                                    </td>
+                                    <td  class="span2">
+
+                                    </td>
+                                </tr>
 
 
-                                <div class="form-actions">
-                                    <button type="submit" class="btn btn-primary">Apply</button>
-                                    <button class="btn">Cancel</button>
-                                </div>
-                                <!-- /form-actions -->
-                            </fieldset>
-                        </form>
+                                <tr>
+                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td>Image Processing</td>
+                                    <td>WSO2</td>
+                                    <td>University of Jaffna</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">A New Watermarking Scheme for Color Images Captured By Mobile Phone Cameras</a></td>
+                                    <td>Image Processing</td>
+                                    <td>99X-Technology</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Authentication Using Graphical Passwords: Effects of Tolerance and Image Choice</a></td>
+                                    <td>Image Processing</td>
+                                    <td>Virtusa</td>
+                                    <td>University of Jaffna</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Semantic Texton forests for image categorization and segmentation</a></td>
+                                    <td>Image Processing</td>
+                                    <td>WSO2</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Image Classification using Random Forests and Ferns</a></td>
+                                    <td>Image Processing</td>
+                                    <td>MIT</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td>Image Processing</td>
+                                    <td>hSenid</td>
+                                    <td>University of Jaffna</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Blood Vessel Segmentation from Color Retinal Images using Unsupervised Texture</a></td>
+                                    <td>Image Processing</td>
+                                    <td>IFS</td>
+                                    <td>University of Jaffna</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Vision Processing for Real time 3-D Data Acquisition Based on Coded Structured Light</a></td>
+                                    <td>Image Processing</td>
+                                    <td>MIT</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td>Image Processing</td>
+                                    <td>99X-Technology</td>
+                                    <td>University of Jaffna</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td>Image Processing</td>
+                                    <td>hSenid</td>
+                                    <td>University of Jaffna</td>
+                                    <td>Not Started Yet</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Sub sampling Image Compression using Al-Alaoui Back propagation Algorithm</a></td>
+                                    <td>Data Mining And Machine Learning</td>
+                                    <td>WSO2</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td>Data Mining And Machine Learning</td>
+                                    <td>hSenid</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>Not Started Yet</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Semi-supervised SVM batch mode active learning for image retrieval</a></td>
+                                    <td>Data Mining And Machine Learning</td>
+                                    <td>Virtusa</td>
+                                    <td>University of Moratuwa</td>
+                                    <td>On going</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Feature based wavelet shrinking algorithm for image denoising</a></td>
+                                    <td>Data Mining And Machine Learning</td>
+                                    <td>IFS</td>
+                                    <td>University of Jaffna</td>
+                                    <td>Not Started Yet</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /widget-content -->
                     </div>
                 </div>
             </div>
-            <!-- /widget-content -->
+            <!-- /row -->
         </div>
-        <!-- /widget -->
+        <!-- /container -->
     </div>
-    <!-- /span8 -->
+    <!-- /main-inner -->
 </div>
-<!-- /row -->
-</div>
-<!-- /container -->
-</div>
-<!-- /main-inner -->
-</div> <!-- /main -->
+<!-- /main -->
 </body>
 </html>

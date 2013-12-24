@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Events - SIL-Bridge</title>
+    <title>Message - SIL-Bridge</title>
 </head>
 <body>
 <div class="widget widget-nopad">
