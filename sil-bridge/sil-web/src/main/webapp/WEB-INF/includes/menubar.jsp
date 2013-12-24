@@ -5,7 +5,14 @@
                 <li class="active"><a href="/sil-web/student/home"><i class="icon-dashboard"></i><span>Home</span> </a> </li>
                 <li><a href="/sil-web/student/project"><i class="icon-list-alt"></i><span>Project</span> </a> </li>
                 <li><a href="/sil-web/student/industry"><i class="icon-bar-chart"></i><span>Industry</span> </a> </li>
-                <li><a href="/sil-web/student/internship"><i class="icon-bar-chart"></i><span>Internship</span> </a> </li>
+                <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Internship</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sil-web/student/apply">Apply for Internship</a></li>
+                        <li><a href="/sil-web/student/progress">Progress</a></li>
+                        <li><a href="/sil-web/student/internshipreports">Reports</a></li>
+
+                    </ul>
+                </li>
                 <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>MyProject</span> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/sil-web/student/events">Events</a></li>

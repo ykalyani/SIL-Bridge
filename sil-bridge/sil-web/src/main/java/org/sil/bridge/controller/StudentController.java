@@ -33,11 +33,6 @@ public class StudentController {
     }
 
 
-    @RequestMapping(value = "/student/internship")
-    public String StudentInternshipPage(){
-        return "student/internship";
-    }
-
     @RequestMapping(value = "/student/events")
     public String StudentEventPage(){
         return "student/events";
@@ -47,9 +42,9 @@ public class StudentController {
         return "student/faq";
     }
 
-    @RequestMapping(value = "/student/report")
+    @RequestMapping(value = "/student/reports")
     public String StudentReportPage(){
-        return "student/report";
+        return "student/reports";
     }
 
         @RequestMapping(value = "/student/message")
@@ -62,5 +57,9 @@ public class StudentController {
         return "student/notification";
     }
 
+    @RequestMapping(value = "/student/apply")
+    public String StudentInternshipapply(){
+        return "student/apply";
+    }
 
 }
