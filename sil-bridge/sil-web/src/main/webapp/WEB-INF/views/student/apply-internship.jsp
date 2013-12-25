@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Student Account - SIL-Bridge</title>
+    <title>Internship - SIL-Bridge</title>
 </head>
 <body>
 <br>
@@ -15,7 +15,7 @@
                     <div class="widget ">
                         <div class="widget-header">
                             <i class="icon-user"></i>
-                            <h3>Create Your Account</h3>
+                            <h3>Apply for Internship</h3>
                         </div>
                         <!-- /widget-header -->
 

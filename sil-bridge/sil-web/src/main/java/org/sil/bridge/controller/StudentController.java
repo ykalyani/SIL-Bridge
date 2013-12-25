@@ -58,8 +58,8 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/student/apply")
-    public String StudentInternshipapply(){
-        return "student/apply";
+    public String StudentInternshipApply(){
+        return "student/apply-internship";
     }
 
 }

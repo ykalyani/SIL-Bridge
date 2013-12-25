@@ -1,7 +1,13 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
-                class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </a><a class="brand" href="/sil-web/index">SIL-Bridge </a>
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/sil-web/index">
+                <img class="logo-style" src="<c:url value="/resources/img/logo.png"/>"/>SIL-Bridge</a>
             <div class="nav-collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
