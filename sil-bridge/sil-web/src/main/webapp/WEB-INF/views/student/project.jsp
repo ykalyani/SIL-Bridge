@@ -59,7 +59,7 @@
 
 
                                 <tr>
-                                    <td><a href="#">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
+                                    <td><a href="/sil-web/student/ProjectDetails">Markov Random Field Model-Based Edge-Directed Image Interpolation</a></td>
                                     <td>Image Processing</td>
                                     <td>Dr. A. Ramanan</td>
                                     <td>University of Jaffna</td>

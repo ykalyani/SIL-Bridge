@@ -33,90 +33,23 @@
                                             <!-- /controls -->
                                         </div>
                                         <!-- /control-group -->
-
-
                                         <div class="control-group">
-                                            <label class="control-label" for="lastname">Last Name</label>
-
-                                            <div class="controls">
-                                                <input type="text" class="span6" id="lastname" value="Donga">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="email">Email Address</label>
-
-                                            <div class="controls">
-                                                <input type="text" class="span4" id="email"
-                                                       value="john.donga@egrappler.com">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="homeaddress">Home Address</label>
-
-                                            <div class="controls">
-                                                <input type="text" class="span4" id="homeaddress"
-                                                       value="john.donga@egrappler.com">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-
-                                        <div class="control-group">
-                                            <label class="control-label">Gender</label>
-
-
-                                            <div class="controls">
-                                                <label class="radio inline">
-                                                    <input type="radio" name="male"> Male
-                                                </label>
-
-                                                <label class="radio inline">
-                                                    <input type="radio" name="female"> Female
-                                                </label>
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="dob">Date Of Birth</label>
-
-                                            <div class="controls">
-                                                <input type="date" class="span6" id="dob" value=" ">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="studentid">Student Id</label>
-
-                                            <div class="controls">
-                                                <input type="text" class="span6" id="studentid" value=" ">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label">University Name</label>
+                                            <label class="control-label">Level Of Studies</label>
 
                                             <div class="controls">
                                                 <div class="btn-group">
                                                     <a class="btn btn-primary" href="#"><i class=""></i>Universities</a>
                                                     <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="#"><i class=""></i> UOJ</a></li>
-                                                        <li><a href="#"><i class=""></i> UOM</a></li>
-                                                        <li><a href="#"><i class=""></i> UVA</a></li>
+                                                        <li><a href="#"><i class=""></i> 1G</a></li>
+                                                        <li><a href="#"><i class=""></i> 1S</a></li>
+                                                        <li><a href="#"><i class=""></i> 2G</a></li>
+                                                        <li><a href="#"><i class=""></i> 2S</a></li>
+                                                        <li><a href="#"><i class=""></i> 3G</a></li>
+                                                        <li><a href="#"><i class=""></i> 3M</a></li>
+                                                        <li><a href="#"><i class=""></i> 3S</a></li>
+                                                        <li><a href="#"><i class=""></i> 4M</a></li>
+                                                        <li><a href="#"><i class=""></i> 4S</a></li>
                                                         <li class="divider"></li>
                                                         <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
                                                     </ul>
@@ -127,75 +60,67 @@
                                         <!-- /control-group -->
 
                                         <div class="control-group">
-                                            <label class="control-label">Faculty Name</label>
+                                            <label class="control-label" for="startdate">Start Date</label>
 
                                             <div class="controls">
-                                                <div class="btn-group">
-                                                    <a class="btn btn-primary" href="#"><i class=""></i> Faculties</a>
-                                                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
-                                                       href="#"><span class="caret"></span></a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#"><i class=""></i> Science</a></li>
-                                                        <li><a href="#"><i class=""></i> Arts</a></li>
-                                                        <li><a href="#"><i class=""></i> Management</a></li>
-                                                        <li class="divider"></li>
-                                                        <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
-                                                    </ul>
-                                                </div>
+                                                <input type="date" class="span6" id="startdate" value=" ">
+                                            </div>
+                                            <!-- /controls -->
+                                        </div>
+                                        <!-- /control-group -->
+                                        <div class="control-group">
+                                            <label class="control-label" for="enddate">End Date</label>
+
+                                            <div class="controls">
+                                                <input type="date" class="span6" id="enddate" value=" ">
                                             </div>
                                             <!-- /controls -->
                                         </div>
                                         <!-- /control-group -->
 
                                         <div class="control-group">
-                                            <label class="control-label" for="course">Course Of Studies</label>
+                                            <label class="control-label" for="gpa">GPA</label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="course" value=" ">
+                                                <input type="text" class="span6" id="gpa" value=" ">
                                             </div>
                                             <!-- /controls -->
                                         </div>
                                         <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="username">User Name</label>
-
-                                            <div class="controls">
-                                                <input type="text" class="span6" id="username" value=" ">
+                                        <div class="widget">
+                                            <div class="widget-header"> <i class="icon-bookmark"></i>
+                                                <h3>Available Industries</h3>
                                             </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="password1">Password</label>
-
-                                            <div class="controls">
-                                                <input type="password" class="span4" id="password1"
-                                                       value="thisispassword">
+                                            <!-- /widget-header -->
+                                            <div class="widget-content">
+                                                <div class="shortcuts"> <a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-list-alt"></i><span
+                                                        class="shortcut-label">WSO2</span> </a><a href="javascript:;" class="shortcut"><i
+                                                        class="shortcut-icon icon-bookmark"></i><span class="shortcut-label">HSenid</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-signal"></i> <span class="shortcut-label">Virtusa</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-user"></i><span
+                                                        class="shortcut-label">IFS</span> </a><a href="javascript:;" class="shortcut"><i
+                                                        class="shortcut-icon icon-file"></i><span class="shortcut-label">99XTechnology</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-picture"></i> <span class="shortcut-label">MIT</span> </a> </div>
+                                                <!-- /shortcuts -->
                                             </div>
-                                            <!-- /controls -->
+                                            <!-- /widget-content -->
                                         </div>
-                                        <!-- /control-group -->
+                                        <div class="widget">
 
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="password2">Confirm Password</label>
-
-                                            <div class="controls">
-                                                <input type="password" class="span4" id="password2"
-                                                       value="thisispassword">
+                                            <!-- /widget-header -->
+                                            <div class="widget-content">
+                                                Select Industries here
                                             </div>
-                                            <!-- /controls -->
+                                            <!-- /widget-content -->
                                         </div>
-                                        <!-- /control-group -->
 
-                                        <br/>
+                                        <div class="widget-content">
+                                            Attached your CV
+                                            <i class="shortcut-icon icon-upload-alt"></i>
+                                        </div>
+
 
 
                                         <div class="form-actions">
-                                            <button type="submit" class="btn btn-primary">Save</button>
-                                            <button class="btn">Cancel</button>
+                                            <button type="submit" class="btn btn-primary">Apply</button>
+                                            <button class="btn">Edit</button>
                                         </div>
                                         <!-- /form-actions -->
                                     </fieldset>
