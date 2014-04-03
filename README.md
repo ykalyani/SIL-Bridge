@@ -30,4 +30,3 @@ How to get pull from original repository
  
 3. SIL-Bridge> git merge upstream/master
 
-
