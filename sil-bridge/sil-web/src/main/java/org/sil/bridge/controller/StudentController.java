@@ -12,48 +12,47 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/student/home")
-    public String StudentHomePage(){
+    public String studentHomePage(){
         return "student/home";
     }
 
     @RequestMapping(value = "/student/register")
-    public String StudentRegisterPage(){
+    public String studentRegisterPage(){
             return "student/register";
     }
 
     @RequestMapping(value = "/student/project")
-    public String StudentProjectPage(){
+    public String studentProjectPage(){
         return "student/project";
     }
 
-
     @RequestMapping(value = "/student/industry")
-    public String StudentIndustryPage(){
+    public String studentIndustryPage(){
         return "student/industry-view";
     }
 
-
     @RequestMapping(value = "/student/events")
-    public String StudentEventPage(){
+    public String studentEventPage(){
         return "student/events";
     }
+
     @RequestMapping(value = "/student/faq")
-    public String StudentFAQPage(){
+    public String studentFAQPage(){
         return "student/faq";
     }
 
     @RequestMapping(value = "/student/reports")
-    public String StudentReportPage(){
+    public String studentReportPage(){
         return "student/reports";
     }
 
      @RequestMapping(value = "/student/message")
-    public String StudentMessagePage(){
+    public String studentMessagePage(){
         return "student/message";
      }
-    @RequestMapping(value = "/student/ProjectDetails")
-    public String ProjectDetails(){
-             return "student/ProjectDetails";
+    @RequestMapping(value = "/student/project-details")
+    public String projectDetails(){
+             return "student/project-details";
     }
 
     @RequestMapping(value = "/student/notification")
@@ -62,8 +61,18 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/student/apply")
-    public String StudentInternshipApply(){
+    public String studentInternshipApply(){
         return "student/apply-internship";
+    }
+
+    @RequestMapping(value = "/student/vacancy-details")
+    public String getVacanciesDetailsPage(){
+        return "student/vacancy-details";
+    }
+
+    @RequestMapping(value = "/student/list-vacancies")
+    public String getListOfVacanciesPage(){
+        return "student/list-vacancies";
     }
 
 }

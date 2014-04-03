@@ -20,7 +20,7 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
                             class="icon-user"></i> Samantha <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:;">Profile</a></li>
+                            <li><a href="/sil-web/student/profile">Profile</a></li>
                             <li><a href="/sil-web/login">Logout</a></li>
                         </ul>
                     </li>

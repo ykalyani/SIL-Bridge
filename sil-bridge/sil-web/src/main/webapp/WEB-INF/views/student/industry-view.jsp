@@ -18,7 +18,7 @@
                         <!-- /widget-header -->
                         <div class="widget-content">
                             <div class="shortcuts">
-                                <a href="/sil-web/student/ListOfVacancies" class="shortcut"><i class="shortcut-icon icon-list-alt"></i><span class="shortcut-label">Virtusa</span> </a>
+                                <a href="/sil-web/student/list-vacancies" class="shortcut"><i class="shortcut-icon icon-list-alt"></i><span class="shortcut-label">Virtusa</span> </a>
                                 <a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-bookmark"></i><span class="shortcut-label">IFS</span> </a>
                                 <a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-signal"></i> <span class="shortcut-label">99X Technology</span> </a>
                                 <a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-comment"></i><span class="shortcut-label">WSO2</span> </a>

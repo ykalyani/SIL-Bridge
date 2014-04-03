@@ -9,7 +9,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/sil-web/student/apply">Apply for Internship</a></li>
                         <li><a href="/sil-web/student/progress">Progress</a></li>
-                        <li><a href="/sil-web/student/internshipreports">Reports</a></li>
+                        <li><a href="/sil-web/student/reports">Reports</a></li>
 
                     </ul>
                 </li>
