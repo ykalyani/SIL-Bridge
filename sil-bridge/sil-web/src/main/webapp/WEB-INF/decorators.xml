@@ -18,8 +18,11 @@
     </decorator>
 
     <decorator name="indexLayout" page="index-layout.jsp">
-        <pattern>*/index</pattern>
-        <pattern>/*</pattern>
+        <pattern>*/student/*</pattern>
+    </decorator>
+
+    <decorator name="indexLayoutLecturer" page="index-layout-lecturer.jsp">
+        <pattern>*/lecturer/*</pattern>
     </decorator>
 
 </decorators>

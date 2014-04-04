@@ -46,7 +46,7 @@ public class StudentController {
         return "student/reports";
     }
 
-     @RequestMapping(value = "/student/message")
+    @RequestMapping(value = "/student/message")
     public String studentMessagePage(){
         return "student/message";
      }

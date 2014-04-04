@@ -2,7 +2,7 @@
     <div class="subnavbar-inner">
         <div class="container">
             <ul class="mainnav">
-                <li class="active"><a href="/sil-web/student/home"><i class="icon-dashboard"></i><span>Student Home</span> </a> </li>
+                <li class="active"><a href="/sil-web/student/home"><i class="icon-dashboard"></i><span>Lecturer Home</span> </a> </li>
                 <li><a href="/sil-web/student/project"><i class="icon-list-alt"></i><span>Project</span> </a> </li>
                 <li><a href="/sil-web/student/industry"><i class="icon-bar-chart"></i><span>Industry</span> </a> </li>
                 <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Internship</span> <b class="caret"></b></a>
