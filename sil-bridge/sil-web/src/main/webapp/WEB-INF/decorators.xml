@@ -25,5 +25,8 @@
         <pattern>*/lecturer/*</pattern>
     </decorator>
 
+    <decorator name="indexLayoutIndustry" page="index-layout-industry.jsp">
+        <pattern>*/industry/*</pattern>
+    </decorator>
 </decorators>
 
