@@ -80,7 +80,7 @@ textarea {
 }
 
 .navbar-fixed-top {
-	position: fixed;
+	position: static;
 }
 
 .navbar .nav a {
@@ -116,7 +116,7 @@ textarea {
 */
 
 .subnavbar {
-    margin-top: 55px;
+    /*margin-top: 55px;*/
     margin-bottom: 2.5em;
     }
     
