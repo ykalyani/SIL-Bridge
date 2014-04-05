@@ -27,9 +27,21 @@ public class IndustryController {
         return "industry/notification";
     }
 
-    @RequestMapping(value = "/industry/apply-vacancy")
+    @RequestMapping(value = "/industry/vacancy")
     public String VacancyApply(){
-        return "industry/apply-vacancy";
+        return "industry/vacancy";
+    }
+
+
+    @RequestMapping(value = "/industry/message")
+    public String industryMessagePage(){
+        return "student/message";
+    }
+
+
+    @RequestMapping(value = "/industry/notification")
+    public String industryNotificationPage(){
+        return "student/notification";
     }
 
 

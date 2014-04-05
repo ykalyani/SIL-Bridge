@@ -15,7 +15,7 @@
                     <div class="widget ">
                         <div class="widget-header">
                             <i class="icon-user"></i>
-                            <h3>Apply for Job</h3>
+                            <h3>Add new vacancy</h3>
                         </div>
                         <!-- /widget-header -->
 
@@ -25,58 +25,28 @@
                                     <fieldset>
 
                                         <div class="control-group">
-                                            <label class="control-label" for="firstname">First Name</label>
+                                            <label class="control-label" for="post">Posting </label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="firstname" value="John">
+                                                <input type="text" class="span6" id="post" value=" ">
                                             </div>
                                             <!-- /controls -->
                                         </div>
                                         <div class="control-group">
-                                            <label class="control-label" for="university">University</label>
+                                            <label class="control-label" for="postdate">Post Date</label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="university" value=" ">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <!-- /control-group -->
-                                        <div class="control-group">
-                                            <label class="control-label">Degree</label>
-                                            <div class="controls">
-                                                <input type="text" class="span6" id="degree" value=" ">
-                                            </div>
-                                            <!-- /controls -->
-
-
-                                        </div>
-                                        <!-- /control-group -->
-
-
-
-                                        <div class="control-group">
-                                            <label class="control-label" for="education">Education</label>
-
-                                            <div class="controls">
-                                                <input type="date" class="span6" id="education" value=" ">
+                                                <input type="date" class="span6" id="postdate" value=" ">
                                             </div>
                                             <!-- /controls -->
                                         </div>
                                         <!-- /control-group -->
 
                                         <div class="control-group">
-                                            <label class="control-label" for="gpa">GPA</label>
+                                            <label class="control-label" for="closedate">Closing Date</label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="gpa" value=" ">
-                                            </div>
-                                            <!-- /controls -->
-                                        </div>
-                                        <div class="control-group">
-                                            <label class="control-label" for="experience">Experience</label>
-
-                                            <div class="controls">
-                                                <input type="date" class="span6" id="experience" value=" ">
+                                                <input type="date" class="span6" id="closedate" value=" ">
                                             </div>
                                             <!-- /controls -->
                                         </div>
@@ -85,18 +55,61 @@
 
 
 
+                                        <div class="control-group">
+                                            <label class="control-label" for="ref">REF</label>
 
-                                        <div class="widget-content">
-                                            Attached your CV
-                                            <i class="shortcut-icon icon-upload-alt"></i>
+                                            <div class="controls">
+                                                <input type="text" class="span6" id="ref" value=" ">
+                                            </div>
+                                            <!-- /controls -->
                                         </div>
+                                        <!-- /control-group -->
 
+                                        <div class="control-group">
+                                            <label class="control-label" for="location">Location</label>
 
-
-                                        <div class="form-actions">
-                                            <button type="submit" class="btn btn-primary">Apply</button>
-                                            <button class="btn">Edit</button>
+                                            <div class="controls">
+                                                <input type="text" class="span6" id="location" value=" ">
+                                            </div>
+                                            <!-- /controls -->
                                         </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="category">Category</label>
+
+                                            <div class="controls">
+                                                <input type="text" class="span6" id="category" value=" ">
+                                            </div>
+                                            <!-- /controls -->
+                                        </div>
+                                        <!-- /control-group -->
+
+                                        <div class="control-group">
+                                            <label class="control-label">Job Type</label>
+                                        <div class="controls">
+                                            <div class="btn-group">
+                                                <a class="btn btn-primary" href="#"><i class=""></i>type</a>
+                                                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"><i class=""></i> Permanent</a></li>
+                                                    <li><a href="#"><i class=""></i> Temporary</a></li>
+
+                                                    <li class="divider"></li>
+                                                    <!--  <li><a href="#"><i class="i"></i> Make admin</a></li>     -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- /controls -->
+                                    </div>
+
+                                        <div class="control-group">
+                                            <label class="control-label" for="salary">Salary</label>
+
+                                            <div class="controls">
+                                                <input type="number" class="span6" id="salary" value=" ">
+                                            </div>
+                                            <!-- /controls -->
+                                        </div>
+                                        <!-- /control-group -->
                                         <!-- /form-actions -->
                                     </fieldset>
                                 </form>
