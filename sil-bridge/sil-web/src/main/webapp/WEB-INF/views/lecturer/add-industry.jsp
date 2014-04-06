@@ -52,7 +52,7 @@
                                             <label class="control-label" for="industry">Name of the Industry</label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="industry" value="John">
+                                                <input type="text" class="span6" id="industry" value="hSenid">
                                             </div>
                                             <!-- /controls -->
                                         </div>
@@ -63,7 +63,7 @@
                                             <label class="control-label" for="url">URL</label>
 
                                             <div class="controls">
-                                                <input type="text" class="span6" id="url" value="Donga">
+                                                <input type="text" class="span6" id="url" value="hSenid.com">
                                             </div>
                                             <!-- /controls -->
                                         </div>

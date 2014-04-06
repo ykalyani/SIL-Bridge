@@ -37,7 +37,7 @@
                                         <label class="control-label" for="title">Title of the project</label>
 
                                         <div class="controls">
-                                            <input type="text" class="span6" id="title" value="John">
+                                            <input type="text" class="span6" id="title" value="project title">
                                         </div>
                                         <!-- /controls -->
                                     </div>
@@ -48,7 +48,8 @@
                                         <label class="control-label" for="describe">Description</label>
 
                                         <div class="controls">
-                                            <input type="textarea" class="span6" id="describe" value="Donga">
+                                            <!--<input type="textarea" class="span6" id="describe" value=""> -->
+                                            <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
                                         </div>
                                         <!-- /controls -->
                                     </div>
