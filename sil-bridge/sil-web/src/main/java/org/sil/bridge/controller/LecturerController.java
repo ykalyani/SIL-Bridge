@@ -12,42 +12,50 @@ public class LecturerController {
     public String dashBoardPage(){
         return "/lecturer/profile";
     }
+
     @RequestMapping(value = "/lecturer/home")
     public String LecturerHomePage(){
         return "lecturer/home";
     }
+
     @RequestMapping(value = "/lecturer/register")
     public String LecturerRegisterPage(){
         return "lecturer/register";
-
     }
-    @RequestMapping(value = "/lecturer/project")
+
+    @RequestMapping(value = "/lecturer/add-project")
     public String addProject(){
-        return "lecturer/addproject";
-
+        return "lecturer/add-project";
     }
-    @RequestMapping(value = "/lecturer/industry")
+
+    @RequestMapping(value = "/lecturer/add-industry")
      public String addIndustry(){
-        return "lecturer/addindustries";
-
+        return "lecturer/add-industry";
     }
-    @RequestMapping(value = "/lecturer/studentinternship")
-    public String studentInternship(){
-        return "lecturer/studentinternship";
 
+    @RequestMapping(value = "/lecturer/student-internship")
+     public String studentInternship(){
+        return "lecturer/student-internship";
     }
-    @RequestMapping(value = "/lecturer/studentproject")
+
+    @RequestMapping(value = "/lecturer/industry-internship")
+    public String industryInternship(){
+        return "lecturer/industry-internship";
+    }
+
+    @RequestMapping(value = "/lecturer/student-projects")
     public String studentProject(){
-        return "lecturer/studentproject";
+        return "lecturer/student-projects";
 
     }
-    @RequestMapping(value = "/lecturer/industryproject")
+
+    @RequestMapping(value = "/lecturer/industry-projects")
     public String industryProject(){
-        return "lecturer/industryproject";
-
+        return "lecturer/industry-projects";
     }
 
-
-
-
+    @RequestMapping(value = "/lecturer/notification")
+    public String lecturerNotification(){
+        return "lecturer/notification";
+    }
 }

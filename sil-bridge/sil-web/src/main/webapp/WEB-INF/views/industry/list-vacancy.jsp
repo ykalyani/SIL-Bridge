@@ -41,7 +41,7 @@
 
 
                                 <tr>
-                                    <td><a href="/sil-web/industry/apply-vacancy">S/w eng</a></td>
+                                    <td><a href="/sil-web/industry/vacancy-details">S/w eng</a></td>
                                     <td>28 March 2014</td>
                                     <td>25 April 2014</td>
                                     <td>PH Perm</td>

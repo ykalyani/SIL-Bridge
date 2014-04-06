@@ -13,14 +13,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/sil-web/index">SIL-Bridge</a>
+            <a class="brand" href="/sil-web/login">SIL-Bridge</a>
             <div class="nav-collapse">
                 <ul class="nav pull-right">
                     <li class="">
                         <a href="/sil-web/choose-member" class="">Don't have an account?</a>
                     </li>
                     <li class="">
-                        <a href="/sil-web/index" class="">
+                        <a href="/sil-web/login" class="">
                             <i class="icon-chevron-left"></i>
                             Back to Homepage
                         </a>
@@ -33,7 +33,7 @@
 
 <div class="account-container">
     <div class="content clearfix">
-        <form action="#" method="post">
+        <form action="sign-in" method="post">
             <h1>Member Login</h1>
             <div class="login-fields">
                 <p>Please provide your details</p>
@@ -58,9 +58,14 @@
         </form>
     </div> <!-- /content -->
 </div> <!-- /account-container -->
-<div class="login-extra">
+<div class="login-extra" style="margin-bottom: 170px">
     <a href="#">Reset Password</a>
 </div> <!-- /login-extra -->
+
+
+<%--<%@ include file="/WEB-INF/includes/footer.jsp" %>--%>
+
+
 </body>
 
 </html>

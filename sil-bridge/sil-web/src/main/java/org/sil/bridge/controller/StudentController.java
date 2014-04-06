@@ -21,12 +21,12 @@ public class StudentController {
             return "student/register";
     }
 
-    @RequestMapping(value = "/student/project")
+    @RequestMapping(value = "/student/suggested-projects")
     public String studentProjectPage(){
-        return "student/project";
+        return "student/suggested-projects";
     }
 
-    @RequestMapping(value = "/student/industry")
+    @RequestMapping(value = "/student/industries")
     public String studentIndustryPage(){
         return "student/industry-view";
     }
@@ -41,9 +41,14 @@ public class StudentController {
         return "student/faq";
     }
 
-    @RequestMapping(value = "/student/reports")
-    public String studentReportPage(){
-        return "student/reports";
+    @RequestMapping(value = "/student/project-reports")
+    public String projectReportsPage(){
+        return "student/project-reports";
+    }
+
+    @RequestMapping(value = "/student/internship-reports")
+    public String internshipReportPage(){
+        return "student/internship-reports";
     }
 
     @RequestMapping(value = "/student/message")
@@ -60,9 +65,14 @@ public class StudentController {
         return "student/notification";
     }
 
-    @RequestMapping(value = "/student/apply")
+    @RequestMapping(value = "/student/apply-internship")
     public String studentInternshipApply(){
         return "student/apply-internship";
+    }
+
+    @RequestMapping(value = "/student/internship-progress")
+    public String internshipProgressApply(){
+        return "student/internship-progress";
     }
 
     @RequestMapping(value = "/student/vacancy-details")
@@ -70,7 +80,7 @@ public class StudentController {
         return "student/vacancy-details";
     }
 
-    @RequestMapping(value = "/student/list-vacancies")
+    @RequestMapping(value = "/student/vacancies")
     public String getListOfVacanciesPage(){
         return "student/list-vacancies";
     }

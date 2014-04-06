@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Choose Member - SIL-Bridge</title>
+    <meta charset="utf-8">
+    <title>Internship Progress - SIL-Bridge</title>
 </head>
 <body>
-<br>
-<br>
-<div class="">
+<div class="main">
     <div class="main-inner">
         <div class="container">
             <div class="row">
@@ -14,13 +13,17 @@
                     <div class="widget ">
                         <div class="widget-header">
                             <i class="icon-user"></i>
-                            <h3>Choose one Member</h3>
+                            <h3>Internship Progress</h3>
                         </div>
                         <!-- /widget-header -->
                         <div class="widget-content">
                             <br/><br/>
-                            <div class="shortcuts">
-                                <a href="/sil-web/student/register" class="shortcut">
+
+                            <%--TODO: Add contents for internship progress--%>
+
+                            <h1>TODO:  Add contents for internship progress</h1>
+                            <%--<div class="shortcuts">
+                                <a href="/sil-web/student/profile" class="shortcut">
                                     <i class="shortcut-icon icon-list-alt"></i> <span class="shortcut-label">Student</span>
                                 </a>
                                 <a href="/sil-web/industry/profile" class="shortcut">
@@ -30,7 +33,7 @@
                                 <a href="/sil-web/lecturer/profile" class="shortcut">
                                     <i class="shortcut-icon icon-signal"></i> <span class="shortcut-label">Lecturer</span>
                                 </a>
-                            </div>
+                            </div>--%>
                             <br/><br/>
                             <!-- /shortcuts -->
                         </div>
@@ -38,7 +41,6 @@
                     </div>
                     <!-- /widget -->
                 </div>
-                <!-- /span8 -->
             </div>
             <!-- /row -->
         </div>
@@ -47,7 +49,5 @@
     <!-- /main-inner -->
 </div>
 <!-- /main -->
-
-<%--<%@ include file="/WEB-INF/includes/footer.jsp" %>--%>
 </body>
 </html>

@@ -16,21 +16,12 @@
                         </div>
                         <!-- /widget-header -->
                         <div class="widget-content">
+                            <%--TODO: Add contents for Messages--%>
 
-                                Message
-                                Contrary to popular belief, Lorem Ipsum is not simply
-                                random text. It has roots in a piece of classical Latin
-                                literature from 45 BC, making it over 2000 years old. Ric
-                                hard McClintock, a Latin professor at Hampden-Sydney Coll
-                                ege in Virginia, looked up one of the more obscure Latin w
-                                ords, consectetur, from a Lorem Ipsum passage, and going t
-                                hrough the cites of the word in classical literature, disco
-                                vered the undoubtable source. Lorem Ipsum comes from section
-                                s 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (Th
-                                e Extremes of Good and Evil) by Cicero, written in 45 BC. Th
-                                is book is a treatise on the theory of ethics, very popular
-                                during the Renaissance. The first line of Lorem Ipsum, "Lorem ip
-                                sum dolor sit amet..", co
+                                <br/><br/><br/> <br/>  <br/>
+                                <h1>TODO:  Add contents for Messages</h1>
+                                <br/><br/><br/><br/><br/>
+
 
                         </div>
                         <!-- /widget-content -->

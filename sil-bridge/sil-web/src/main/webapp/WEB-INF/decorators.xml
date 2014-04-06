@@ -8,16 +8,17 @@
 
     <decorator name="loginLayout" page="login-layout.jsp">
         <pattern>*/login</pattern>
+        <pattern>*/</pattern>
     </decorator>
 
-    <decorator name="profileLayout" page="profile-layout.jsp">
+    <decorator name="profileLayout" page="register-layout.jsp">
         <pattern>*/choose-member</pattern>
-        <pattern>*/student/profile</pattern>
-        <pattern>*/lecturer/profile</pattern>
-        <pattern>*/industry/profile</pattern>
+        <pattern>*/student/register</pattern>
+        <pattern>*/lecturer/register</pattern>
+        <pattern>*/industry/register</pattern>
     </decorator>
 
-    <decorator name="indexLayout" page="index-layout.jsp">
+    <decorator name="indexLayoutStudent" page="index-layout-student.jsp">
         <pattern>*/student/*</pattern>
     </decorator>
 
@@ -28,5 +29,6 @@
     <decorator name="indexLayoutIndustry" page="index-layout-industry.jsp">
         <pattern>*/industry/*</pattern>
     </decorator>
+
 </decorators>
 

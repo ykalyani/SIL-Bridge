@@ -17,6 +17,10 @@
 
                 <div class="span12">
 
+                    <%--TODO: Add contents for internship reports--%>
+
+                    <h1>TODO:  Add contents for internship reports</h1>
+
                     <div class="info-box">
                         <div class="row-fluid stats-box">
                             <div class="span4">

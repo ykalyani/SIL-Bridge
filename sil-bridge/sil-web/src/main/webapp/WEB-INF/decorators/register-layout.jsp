@@ -36,7 +36,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/sil-web/index">
+            <a class="brand" href="/sil-web/login">
                 SIL-Bridge
             </a>
             <div class="nav-collapse">

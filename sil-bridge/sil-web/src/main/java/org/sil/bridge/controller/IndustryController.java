@@ -9,7 +9,7 @@ public class IndustryController {
 
 
     @RequestMapping(value = "/industry/profile")
-    public String dashBoardPage(){
+    public String industryProfilePage(){
         return "/industry/profile";
     }
     @RequestMapping(value = "/industry/home")
@@ -19,24 +19,31 @@ public class IndustryController {
     @RequestMapping(value = "/industry/register")
     public String industryRegisterPage(){
         return "industry/register";
-
     }
 
-    @RequestMapping(value = "/industry/vacancy")
-    public String VacancyApply(){
-        return "industry/vacancy";
+    @RequestMapping(value = "/industry/add-vacancy")
+    public String addNewVacancy(){
+        return "industry/add-vacancy";
     }
 
+    @RequestMapping(value = "/industry/vacancies")
+    public String listVacancies(){
+        return "industry/list-vacancy";
+    }
+
+    @RequestMapping(value = "/industry/vacancy-details")
+    public String vacancyDetails(){
+        return "industry/vacancy-details";
+    }
 
     @RequestMapping(value = "/industry/message")
     public String industryMessagePage(){
-        return "student/message";
+        return "industry/message";
     }
-
 
     @RequestMapping(value = "/industry/notification")
     public String industryNotificationPage(){
-        return "student/notification";
+        return "industry/notification";
     }
 
 

@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/sil-web/index">
+            <a class="brand" href="/sil-web/login">
                 <img class="logo-style" src="<c:url value="/resources/img/logo.png"/>"/>SIL-Bridge</a>
             <div class="nav-collapse">
                 <ul class="nav pull-right">

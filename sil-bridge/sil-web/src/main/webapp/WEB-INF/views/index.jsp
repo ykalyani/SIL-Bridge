@@ -52,7 +52,7 @@
                     <div class="message_wrap"> <span class="arrow"></span>
                         <div class="info"> <a class="name">John Smith</a> <span class="time">1 hour ago</span>
                             <div class="options_arrow">
-                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
+                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel1" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
                                     <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
                                         <li><a href="#"><i class=" icon-share-alt icon-large"></i> Reply</a></li>
                                         <li><a href="#"><i class=" icon-trash icon-large"></i> Delete</a></li>
@@ -68,7 +68,7 @@
                     <div class="message_wrap"> <span class="arrow"></span>
                         <div class="info"> <a class="name">Bender (myself) </a> <span class="time">4 hours ago</span>
                             <div class="options_arrow">
-                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
+                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel2" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
                                     <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
                                         <li><a href="#"><i class=" icon-share-alt icon-large"></i> Reply</a></li>
                                         <li><a href="#"><i class=" icon-trash icon-large"></i> Delete</a></li>
@@ -84,7 +84,7 @@
                     <div class="message_wrap"> <span class="arrow"></span>
                         <div class="info"> <a class="name">Celeste Holm </a> <span class="time">1 Day ago</span>
                             <div class="options_arrow">
-                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
+                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel3" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
                                     <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
                                         <li><a href="#"><i class=" icon-share-alt icon-large"></i> Reply</a></li>
                                         <li><a href="#"><i class=" icon-trash icon-large"></i> Delete</a></li>
@@ -100,7 +100,7 @@
                     <div class="message_wrap"> <span class="arrow"></span>
                         <div class="info"> <a class="name">Mark Jobs </a> <span class="time">2 Days ago</span>
                             <div class="options_arrow">
-                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
+                                <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel4" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-caret-down"></i> </a>
                                     <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
                                         <li><a href="#"><i class=" icon-share-alt icon-large"></i> Reply</a></li>
                                         <li><a href="#"><i class=" icon-trash icon-large"></i> Delete</a></li>
